@@ -71,7 +71,7 @@ else
 
 // Количество точек внутри фигуры textBox2-
 
->Text = Convert::ToString (T_vn);
+Text = Convert::ToString (T_vn);
 
 // Количество точек вне фигуры
 
