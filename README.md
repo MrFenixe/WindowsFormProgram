@@ -11,7 +11,7 @@
  
  В заготовку кода вставили следующий фрагмент:
  
-Series^ plot4 = chart1->Series[3];
+```Series^ plot4 = chart1->Series[3];
 
 Series^ plot5 = chart1->Series[4];
 
@@ -19,7 +19,7 @@ int T_vn, T_za, n;
 
 float x, y, S_fig, S_r,er;
 
-// Очищаем графики (точки) для проведения повторного Расчета
+``` Очищаем графики (точки) для проведения повторного Расчета
 
 plot4->Points->Clear();
 
