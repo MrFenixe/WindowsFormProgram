@@ -37,17 +37,10 @@ n = Convert::ToInt32(textBox1->Text);
 Очищаем счетчики точек
 ```
 T_vn = 0; T_za = 0;
-
+```
+Генерируем пару случайных чисел и трактуем их как координаты случайной точки
+```
 for (int i=1; i<=n; i++)
-
-
-
-57
-```
-Генерируем пару случайных чисел и трактуем их как
-
-координаты случайной точки
-```
 x = rand()%201-100; 
 y = rand()%201-100;
 ```
@@ -87,11 +80,7 @@ S_r= 10000+M_PI*10000/2;
 ```
 Ошибка
 ```
-er = fabs(S_r-S_fig)/S_r*100; textBox4->Text
-
-= Convert::ToString (S_fig); textBox5->Text =
-
-Convert::ToString (er);
+er = fabs(S_r-S_fig)/S_r*100; textBox4->Text = Convert::ToString (S_fig); textBox5->Text = Convert::ToString (er);
 
 }
 else MessageBox::Show( "Введите количество точек", "Ошибка
