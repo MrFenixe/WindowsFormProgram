@@ -11,7 +11,7 @@
  
  В заготовку кода вставили следующий фрагмент:
  
-`Series^ plot4 = chart1->Series[3];
+``` Series^ plot4 = chart1->Series[3];
 
 Series^ plot5 = chart1->Series[4];
 
@@ -99,7 +99,8 @@ else MessageBox::Show( "Введите количество точек", "Оши
 
 MessageBoxButtons::OK, MessageBoxIcon::Exclamation );
 
-} `
+} 
+```
 
 ## Скриншот
 ![image](https://user-images.githubusercontent.com/44202889/245389960-7469fe32-861d-4ca3-bb54-def2aa244ab8.png)
