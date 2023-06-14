@@ -99,7 +99,7 @@ else MessageBox::Show( "Введите количество точек", "Оши
 
 MessageBoxButtons::OK, MessageBoxIcon::Exclamation );
 
-}
+} ```
 
 ## Скриншот
 ![image](https://user-images.githubusercontent.com/44202889/245389960-7469fe32-861d-4ca3-bb54-def2aa244ab8.png)
